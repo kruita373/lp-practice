@@ -1,1 +1,152 @@
 @charset "utf-8";
+.inner{
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header--inner{
+  padding: 15px 0;
+}
+.flex--nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav--icon{
+  color: #8c8c8c;
+}
+.contact{
+  color: #ffffff;
+  background-color: #6ba7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+.contact:hover{
+  background-color: #333;
+  transition: 0.5s;
+}
+a{
+  text-decoration: none;
+}
+.keyvisual{
+  background: url("../img/keyvisual/keyvisual.jpg") no-repeat center/100% auto;
+  text-align: center;
+}
+h1{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  padding-top: 400px;
+  padding-bottom: 30px;
+}
+.sab--text{
+  font-size: 40px;
+  font-weight: 200;
+  color: #fff;
+  padding-bottom: 400px;
+}
+.work--area{
+  background:#e3f2fd;
+}
+.flex--work{
+  display: flex;
+  align-items: flex-end;
+}
+.pc--img{
+  width: 100%;
+}
+h2{
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.work--text{
+  margin-top: 35px;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+.work--item:first-child{
+  width: 440px;
+  padding: 50px 100px 0 100px;
+  box-sizing: border-box;
+}
+.work--item:last-child{
+  width: 60%;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.index{
+  padding: 50px 0 50px;
+}
+.flex--skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+.img--skill{
+  width: 300px;
+  height: 300px;
+}
+.skill--item{
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.skill--item:nth-of-type(3n){
+  margin-right: 0;
+}
+.plan{
+  background: #d0dfea;
+  padding-bottom: 50px;
+}
+.table--plan{
+  width: 100%;
+  table-layout: fixed;
+}
+th,td{
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 10px;
+  border-left: 2px solid #fff;
+}
+th:first-child{
+  border-left: 0px;
+}
+thead{
+  background: #6ba7eb;
+}
+tbody tr:nth-child(odd){
+  background: #f9f9f9;
+}
+tbody tr:nth-child(2n){
+  background: #e0efff;
+}
+.sns{
+  background: #e3f2fd;
+}
+.flex--sns{
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+.sns--item{
+  width: 185px;
+  text-align: center;
+}
+.sns--icon{
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  padding: 25px 0;
+}
+.copyright{
+  background: #cfd8dc;
+}
+.footer--text{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding: 20px 0 25px 0;
+  text-align: right;
+}
+
+
