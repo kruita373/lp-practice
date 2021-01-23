@@ -1,4 +1,9 @@
 @charset "utf-8";
+.toptop{
+  background: #fff;
+  position: fixed;
+  width: 100%;
+}
 .inner{
   width: 1100px;
   max-width: 100%;
@@ -28,21 +33,24 @@ a{
   text-decoration: none;
 }
 .keyvisual{
-  background: url("../img/keyvisual/keyvisual.jpg") no-repeat center/100% auto;
+  padding-top: 78px;
+}
+.keyvisual--img{
+  background: url("../img/keyvisual/keyvisual.jpg") no-repeat center/cover;
   text-align: center;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 h1{
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  padding-top: 400px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .sab--text{
   font-size: 40px;
   font-weight: 200;
   color: #fff;
-  padding-bottom: 400px;
 }
 .work--area{
   background:#e3f2fd;
