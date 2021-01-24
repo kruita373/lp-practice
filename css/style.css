@@ -58,6 +58,7 @@ h1{
 }
 .flex--work{
   display: flex;
+  align-items: center;
 }
 .pc--img{
   width: 250px;
