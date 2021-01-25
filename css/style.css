@@ -83,17 +83,9 @@ h2{
   width: 60%;
   text-align: center;
 }
-.space--box--50{
+.skills{
   padding-top: 50px;
-  background: #fff;
-}
-.space--box--50blue{
-  padding-top: 50px;
-  background: #d0dfea;
-}
-.space--box--70{
-  padding-top: 70px;
-  background: #fff;
+  padding-bottom: 70px;
 }
 .flex--skills{
   display: flex;
@@ -107,6 +99,7 @@ h2{
 }
 .img--skill:hover{
   opacity: 1;
+  transition: 0.7s;
 }
 .skill--item{
   margin-right: 100px;
@@ -119,6 +112,7 @@ h2{
   margin-bottom: 0;
 }
 .plan{
+  padding-top: 50px;
   background: #d0dfea;
   padding-bottom: 50px;
 }
