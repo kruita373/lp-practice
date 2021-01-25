@@ -142,6 +142,11 @@ tbody tr:nth-child(2n){
 }
 .sns{
   background: #e3f2fd;
+  pointer-events: none;
+}
+.sns:hover{
+  background: #fff;
+  transition: 0.5s;
 }
 .flex--sns{
   display: flex;
@@ -157,6 +162,7 @@ tbody tr:nth-child(2n){
   overflow: hidden;
   font-size: 40px;
   padding: 25px 0;
+  pointer-events: auto;
 }
 .copyright{
   background: #cfd8dc;
