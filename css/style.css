@@ -108,7 +108,7 @@ h2{
 .skill--item:nth-of-type(3n){
   margin-right: 0;
 }
-.under--item{
+.skill--item:nth-child(n+4){
   margin-bottom: 0;
 }
 .plan{
