@@ -102,11 +102,10 @@ h2{
   transition: 0.7s;
 }
 .skill--item{
-  margin-right: 100px;
-  margin-bottom: 100px;
+  margin: 0 0 100px 100px;
 }
-.skill--item:nth-child(3n){
-  margin-right: 0;
+.skill--item:nth-child(3n+1){
+  margin-left: 0;
 }
 .skill--item:nth-last-child(-n+3){
   margin-bottom: 0;
@@ -142,11 +141,6 @@ tbody tr:nth-child(2n){
 }
 .sns{
   background: #e3f2fd;
-  pointer-events: none;
-}
-.sns:hover{
-  background: #fff;
-  transition: 0.5s;
 }
 .flex--sns{
   display: flex;
@@ -156,6 +150,11 @@ tbody tr:nth-child(2n){
 .sns--item{
   width: 185px;
   text-align: center;
+  pointer-events: none;
+}
+.sns--item:hover{
+  background: #fff;
+  transition: 0.5s;
 }
 .sns--icon{
   color: #8c8c8c;
