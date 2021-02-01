@@ -154,18 +154,16 @@ tbody tr:nth-child(2n){
 .sns--item{
   width: 185px;
   text-align: center;
-  pointer-events: none;
+  transition: 0.5s;
 }
 .sns--item:hover{
   background: #fff;
-  transition: 0.5s;
 }
 .sns--icon{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
   padding: 25px 0;
-  pointer-events: auto;
 }
 .copyright{
   background: #cfd8dc;
