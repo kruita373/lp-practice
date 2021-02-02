@@ -13,6 +13,9 @@
 .header--inner{
   padding: 15px 0;
 }
+.humbereger{
+  display: none;
+}
 .flex--nav{
   display: flex;
   justify-content: space-between;
@@ -174,5 +177,100 @@ tbody tr:nth-child(2n){
   padding: 20px 0 25px 0;
   text-align: right;
 }
-
+@media screen and (max-width: 1199px){
+  .inner{
+    width: 97%;
+  }
+  .keyvisual--img{
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+  .flex--work{
+    display: block;
+    padding-bottom: 50px;
+  }
+  .work--item:first-child{
+    width: 100%;
+  }
+  .work--item:last-child{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .skill--item{
+    float: none;
+    margin: 0px;
+    text-align: center;
+  }
+  .img--skill{
+    vertical-align: middle;
+  }
+  .skill--item:nth-child(3n+1){
+    margin-top: 80px;
+  }
+  .skill--item:first-child{
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 767px){
+  .humbereger{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+  }
+  .humbereger div{
+    position: absolute;
+    box-sizing: border-box;
+    width: 30px;
+    height: 4px;
+    border: 2px solid #e6e6e6;
+    left: 8px;
+  }
+  .humbereger div:nth-of-type(1){
+    top: 7px;
+  }
+  .humbereger div:nth-of-type(2){
+    top: 16px;
+  }
+  .humbereger div:nth-of-type(3){
+    bottom: 7px;
+  }
+  .contact{
+    display: none;
+  }
+  .keyvisual--img{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .sab--text{
+    font-size: 30px;
+  }
+  th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td{
+    font-size: 12px;
+  }
+  .sns{
+    padding: 50px 15px;
+  }
+  .sns--inner{
+    width: 100%;
+  }
+  .flex--sns{
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+  }
+  .sns--icon{
+    padding: 50px 0;
+  }
+}
 
