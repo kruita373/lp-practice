@@ -194,7 +194,7 @@ tbody tr:nth-child(2n){
   }
   .work--item:last-child{
     width: 100%;
-    padding-top: 20px;
+    margin-top: 20px;
   }
   .skill--item{
     float: none;
@@ -268,6 +268,9 @@ tbody tr:nth-child(2n){
     flex-direction: column;
     padding: 0px;
     align-items: center;
+  }
+  .sns--item{
+    width: 100%;
   }
   .sns--icon{
     padding: 50px 0;
