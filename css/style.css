@@ -261,9 +261,6 @@ tbody tr:nth-child(2n){
   .sns{
     padding: 50px 15px;
   }
-  .sns--inner{
-    width: 100%;
-  }
   .flex--sns{
     flex-direction: column;
     padding: 0px;
